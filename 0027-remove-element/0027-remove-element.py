@@ -12,7 +12,7 @@ class Solution:
                 count += 1
                 nums[i] = nums[back_idx]
                 back_idx -= 1
-                while nums[back_idx] == val:
+                while back_idx >= 0 and nums[back_idx] == val:
                     back_idx -= 1
                     count += 1
             i += 1
