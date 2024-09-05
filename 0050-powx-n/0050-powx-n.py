@@ -44,3 +44,25 @@ class Solution:
                 n -= power
 
             return output
+        
+    # ==========================    
+        
+    def binaryExp(self, x, n):
+        # base case to stop recursive calls
+        if n == 0:
+            return 1
+        
+        # handle case where n < - 
+        if n < 0:
+            return 1.0 / self.binaryExp(x, -1 * n)
+        
+        # perform binary exponentiation
+        # if n is odd we do it on n-1 and multiple result with x
+        if n % 2 == 1:
+            return x * self.binaryExp(x * x, (n-1) //2)
+        # otherwise we calculate result by performing binary exponentiation on 'n'
+        else:
+            return self.binaryExp(x * x, n // 2)
+        
+    def myPow(self, x: float, n: int) -> float:
+        return self.binaryExp(x, n)
