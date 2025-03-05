@@ -15,4 +15,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
