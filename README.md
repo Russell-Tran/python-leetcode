@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
 ## Dynamic Programming
 |  |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
+| [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Math
 |  |
@@ -40,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
