@@ -49,4 +49,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
+## Depth-First Search
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
+## Graph
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
