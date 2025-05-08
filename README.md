@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
 | [0792-binary-search](https://github.com/Russell-Tran/python-leetcode/tree/master/0792-binary-search) |
@@ -57,10 +58,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 ## Graph
 |  |
@@ -90,4 +93,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
