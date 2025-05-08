@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Sorting
 |  |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -113,4 +116,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
