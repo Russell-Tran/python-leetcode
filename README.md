@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Russell-Tran/python-leetcode/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
+| [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -142,4 +144,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Russell-Tran/python-leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
