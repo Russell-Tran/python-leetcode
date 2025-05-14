@@ -35,5 +35,11 @@ class Solution:
 
         return result
 
-        
+        """
+        NOTE: ChatGPT would rather you keep track of the length of each level
+        by measuring the length of the queue before each round;
+        it's more elegant that way and you don't need markers
+        or this wonky de-deuplication of markers if len(queue) > 1 and queue[0] is None:
+        because len(queue) > 1 is my way of avoiding an extra empty package at the end
+        """
         
