@@ -1,5 +1,33 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        """
+        Here's my rationale:
+        The choice to be made at each point, assuming we know the n-1 problem is solved,
+        is whether this n array is better off in a touch-world or a non-touch world
+        with this last element. That is, the touch-world is the optimal of the subproblem
+        since we aren't going to include the last element. Likewise, the non-touch-world
+        is the optimal of the subproblem + inclusion of the last element. 
+
+        However, when we make this decision, we impact the future n+1 problem.
+        Because if we choose to touch, then the future n+1 needs to know that. 
+        And if we choose not to touch, the future n+1 also needs to know that.
+        So we go and store that in separate arrays. Really it could just be variables
+        but this is a bit nicer for standardizing DP problems. 
+
+        THAT IS,
+        NEW TOUCH = this element + optimal of the immediate subproblem's NON-TOUCH
+        NEW NON-TOUCH = max(immediate subproblem's NON-TOUCH, immediate subproblem's TOUCH)
+                        ^ the max here is because by going non-touch, we want to pull 
+                        forward the best of either worlds, since the NON-TOUCH world
+                        is as valid as the TOUCH world, since the optimals of both
+                        count as non-touching because the decision made at n was not to 
+                        touch.
+
+        Once we've filled out the arrays/run through the input,
+        just return the max of the latest TOUCH and NON-TOUCH worlds.
+        """
+
+
         non_touch_optimals = [0]
         touch_optimals = [nums[0]]
 
