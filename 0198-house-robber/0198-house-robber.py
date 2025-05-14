@@ -12,7 +12,9 @@ class Solution:
         Because if we choose to touch, then the future n+1 needs to know that. 
         And if we choose not to touch, the future n+1 also needs to know that.
         So we go and store that in separate arrays. Really it could just be variables
-        but this is a bit nicer for standardizing DP problems. 
+        but this is a bit nicer aesthetically for DP problems/debugging. (Really
+        though the space complexity can just be O(1) instead of this O(n) because 
+        we just need to store the last TOUCH and NON-TOUCH variables). 
 
         THAT IS,
         NEW TOUCH = this element + optimal of the immediate subproblem's NON-TOUCH
