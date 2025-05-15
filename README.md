@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/Russell-Tran/python-leetcode/tree/master/0206-reverse-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -148,4 +149,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Russell-Tran/python-leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
