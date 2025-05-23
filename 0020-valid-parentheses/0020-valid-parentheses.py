@@ -15,7 +15,7 @@ class Solution:
             else:
                 if not stack or stack[-1] != opener_of[char]:
                     return False
-                stack = stack[:-1]
+                stack.pop()
 
         return not stack
 
