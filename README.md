@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Russell-Tran/python-leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Russell-Tran/python-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/Russell-Tran/python-leetcode/tree/master/0198-house-robber) |
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Russell-Tran/python-leetcode/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/Russell-Tran/python-leetcode/tree/master/0198-house-robber) |
@@ -27,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Russell-Tran/python-leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Hash Table
