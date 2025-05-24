@@ -1,28 +1,39 @@
 class Solution:
-    
-    
-    def recurse(self, nums, idx) -> bool:
-        # Base cases
-        if idx == len(nums) - 1:
+    def canJump(self, nums: List[int]) -> bool:
+        if len(nums) == 1:
             return True
         
-        jump_maximum = nums[idx]
-        if jump_maximum == 0:
+        invalids = set()
+
+        def recurse(i: int) -> bool:
+            if i in invalids:
+                return False
+            print("i = {}".format(i))
+            for offset in reversed(range(1, nums[i] + 1)):
+                jump_idx = i + offset
+                if jump_idx >= len(nums) - 1 or recurse(jump_idx):
+                    return True
+            invalids.add(i)
             return False
         
-        # Explore 
-        for jump in range(1, jump_maximum+1):
-            candidate = idx + jump
-            if candidate not in self.blacklist and self.recurse(nums, candidate):
-                return True
-            
-        self.blacklist.add(idx)
-        return False
-            
+        return recurse(i=0)
+
     
-    def canJump(self, nums: List[int]) -> bool:
-        
-        # It seems like you can use DFS
-        self.blacklist = set()
-        return self.recurse(nums, 0)
-        
+
+
+
+"""
+nums = [2,3,1,1,4]
+        ^   ^ ^
+
+nums = [3,2,1,0,4]
+        ^. ^  ^^
+
+
+anchor = 0
+        explorer = nums[0]
+
+        for jump in reversed(range(nums[anchor]))
+
+        def recurse()
+"""
