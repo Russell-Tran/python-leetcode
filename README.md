@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0226-invert-binary-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0226-invert-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Russell-Tran/python-leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0226-invert-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 ## Graph
@@ -148,11 +150,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Russell-Tran/python-leetcode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0226-invert-binary-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Russell-Tran/python-leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Russell-Tran/python-leetcode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0226-invert-binary-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Russell-Tran/python-leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
