@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Math
 |  |
@@ -55,11 +56,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
