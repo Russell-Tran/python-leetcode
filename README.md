@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Russell-Tran/python-leetcode/tree/master/0072-edit-distance) |
+| [0125-valid-palindrome](https://github.com/Russell-Tran/python-leetcode/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Russell-Tran/python-leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Russell-Tran/python-leetcode/tree/master/0141-linked-list-cycle) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Depth-First Search
