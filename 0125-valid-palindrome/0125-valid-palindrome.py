@@ -21,4 +21,7 @@ class Solution:
 
 low = 0
 high = 1
+
+
+alternative answer is return s == reversed(s)
 """
