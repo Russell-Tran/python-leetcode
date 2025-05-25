@@ -1,16 +1,23 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        # Practice again - using the inclusive
         low = 0
         high = len(nums) - 1
-
         while low <= high:
             mid = (low + high) // 2
             if nums[mid] == target:
                 return mid
-            elif nums[mid] > target:
-                high = mid - 1
-            else: # nums[mid] < target:
+            elif nums[mid] < target:
                 low = mid + 1
-
+            else:
+                high = mid - 1
         return -1
+
+"""
+[-1,0,3,5,9,12]
+ ^.     ^ -  ^--     ^
+"""
+
+"""
+[-1,0,3,5,9,12]
+ ^              ^
+"""
