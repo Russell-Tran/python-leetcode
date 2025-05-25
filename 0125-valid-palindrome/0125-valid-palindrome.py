@@ -1,26 +1,24 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        #alphanumeric = {1,2,3,4,5,6,7,8,9,0,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q...}
-        if not s:
-            return True
-        
-        
-        front_idx = 0
-        back_idx = len(s)-1
-        
         s = s.lower()
-        while front_idx < back_idx:
-            front = s[front_idx]
-            if not front.isalnum():
-                front_idx += 1
+        low = 0
+        high = len(s) - 1
+        while low < high: # an equal index would be a unitary middle that is OK for palindromes
+            if not s[low].isalnum():
+                low += 1
                 continue
-            back = s[back_idx]
-            if not back.isalnum():
-                back_idx -= 1
+            if not s[high].isalnum():
+                high -= 1
                 continue
-            if front != back:
+            if s[low] != s[high]:
                 return False
-            front_idx += 1
-            back_idx -= 1
-            
+            low += 1
+            high -= 1
         return True
+
+"""
+0p
+
+low = 0
+high = 1
+"""
