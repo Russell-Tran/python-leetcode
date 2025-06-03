@@ -16,6 +16,13 @@ class Solution:
             
         return [datum[1] for datum in heap]
 
+"""
+ANKI
+- count all them first  (NO NEED TO COUNT AS YOU GO), O(n)
+- a size-limited heap is efficient since the inserts will be O(log k) each
+- therefore you can do a O(n log k) which is more efficient than sorting in 
+the absence of a heap which would be the dreaded O(n log n)
+"""
 
 """
 JUNK 2.0
