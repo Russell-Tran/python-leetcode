@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/Russell-Tran/python-leetcode/tree/master/0792-binary-search) |
 ## Dynamic Programming
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Math
 |  |
@@ -73,10 +75,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Counting Sort
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Russell-Tran/python-leetcode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -113,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/Russell-Tran/python-leetcode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Russell-Tran/python-leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Shortest Path
@@ -208,4 +213,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0572-subtree-of-another-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
