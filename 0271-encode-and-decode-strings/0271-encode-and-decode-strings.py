@@ -34,6 +34,17 @@ class Codec:
 # codec.decode(codec.encode(strs))
 
 """
+
+ANKI
+- This is a party trick
+- You need a delimiter, but you can't use characters as the delimiter
+- So instead this is an exercise in networking, where you should define packet lengths in between each word
+- ALT 1: Not ASCII delimiter (easiest but has drawback, use a Unicode like pi)
+- ALT 2: Escaping: use a 2-char delimiter but escape coincidences in the native string with an extra / 
+(then you have to do the work of editing each string and also unwinding those but at least
+it protects the thing, just like HTML)
+
+NOTES
 - Oh this is a good one i think i had an interview question as this
 - also it's kind of just a party trick
 - you need a delimiter, but you can't use characters as the delimiter
