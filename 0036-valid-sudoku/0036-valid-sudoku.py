@@ -26,6 +26,16 @@ class Solution:
 
 
 """
+ANKI
+- COMMON SENSE YES: Hash sets for each row, column, and subgrid. Could talk about traversal vs storage tradeoffs. Btw the way to make the subgrid sets easy is to store those as its own grid of sets and // by the subgtide side len
+
+- ALT1: Array of fixed length that stores "seen" booleans. can use the soduku vals as indices to jump around.
+And basically do that for each row , col, subgrid like before , this is actually the same thing as hashing
+
+- ALT2: Store these "seen" booleans as binaries in bits, and use bitmasking and bit logic to compress all
+of this into integers instead of arrays or sets.
+
+NOTES
 I've seen this as a company problem before, and choked, so it's a good one to cover 
 (Actually I think the problem was a sudoku solver instead, or a minesweeper solver,
 or to build minesweeper)
