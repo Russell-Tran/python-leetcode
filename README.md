@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/Russell-Tran/python-leetcode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Russell-Tran/python-leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Russell-Tran/python-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Russell-Tran/python-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/Russell-Tran/python-leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/Russell-Tran/python-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Russell-Tran/python-leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Russell-Tran/python-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/Russell-Tran/python-leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Russell-Tran/python-leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Russell-Tran/python-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 ## Matrix
