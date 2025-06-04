@@ -14,6 +14,23 @@ class Solution:
         return result
 
 """
+ANKI
+- First mention the division answer is easiest, provided you watch out for zeros as potholes"
+** If more than one zero, then every output is 0.
+** If exactly one zero, then only the position of that zero has non-zero product; all others are 0.
+** If no zeros, you can compute the total product and divide.
+
+- An O(n^2) solution is to take each element and multiply it over each element in the list, like a traversal, where every element takes turns
+
+- If you want this to be O(n), precompute all prefixes and suffixes, and pair them together while avoiding
+the current index.
+
+- Lastly, if you want to use O(1) space, you should precompute either the prefixes or suffixes,
+storing that in the array that you would have used as the return array anyway,
+and the other (e.g. the prefixes) should "roll-up" in live time.
+
+
+NOTES
 [1,2,3,4]
 [36,36,12,4]
 
