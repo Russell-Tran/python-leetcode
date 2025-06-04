@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Russell-Tran/python-leetcode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Russell-Tran/python-leetcode/tree/master/0036-valid-sudoku) |
 | [0045-jump-game-ii](https://github.com/Russell-Tran/python-leetcode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/Russell-Tran/python-leetcode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/Russell-Tran/python-leetcode/tree/master/0055-jump-game) |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Russell-Tran/python-leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/Russell-Tran/python-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Russell-Tran/python-leetcode/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/Russell-Tran/python-leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Russell-Tran/python-leetcode/tree/master/0146-lru-cache) |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Russell-Tran/python-leetcode/tree/master/0036-valid-sudoku) |
 | [0200-number-of-islands](https://github.com/Russell-Tran/python-leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 ## Trie
