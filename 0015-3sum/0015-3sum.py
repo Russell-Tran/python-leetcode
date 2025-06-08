@@ -21,9 +21,9 @@ class Solution:
                 #     j += 1
                 #     continue
 
-                if k < len(nums) - 1 and nums[k] == nums[k+1]:
-                    k -= 1
-                    continue
+                # if k < len(nums) - 1 and nums[k] == nums[k+1]:
+                #     k -= 1
+                #     continue
 
                 summation = nums[i] + nums[j] + nums[k]
                 if summation == 0:
