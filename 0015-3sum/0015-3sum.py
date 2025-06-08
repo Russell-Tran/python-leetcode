@@ -4,8 +4,8 @@ class Solution:
         nums = sorted(nums)
         #print("nums = {}".format(nums))
         for i in range(len(nums) - 2):
-            # if i > 0 and nums[i] == nums[i-1]:
-            #     continue
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
             j, k = i + 1, len(nums) - 1
             while j < k:
                 #print("i = {}, j = {}, k =  {}".format(i, j, k))
@@ -28,6 +28,12 @@ class Solution:
         return [list(solution) for solution in solutions]
 
 """
+ANKI
+- Okay so apparently the only way to solve this is to remember Two Sum and Two Sum II solutions
+and build off that
+
+- A
+
 DEBUG
 [-1,0,1,2,-1,-4]
 i = 0
@@ -113,5 +119,8 @@ because this ^^^^^ stuff to avoid duplicates didn't even work:
                 else:
                     k -= 1
         return result
+
+
+YES and apparently the sets thing worked, though it made the runtime super slow idk why
 
 """
