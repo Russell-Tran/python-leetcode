@@ -6,6 +6,7 @@ class Solution:
         for i in range(len(nums) - 2):
             if i > 0 and nums[i] == nums[i-1]:
                 # We do this because the point of i is to be unique
+                # THIS SAVES RUNTIME
                 continue
             j, k = i + 1, len(nums) - 1
             while j < k:
@@ -23,7 +24,7 @@ class Solution:
 
                 # if k < len(nums) - 1 and nums[k] == nums[k+1]:
                 #     k -= 1
-                #     continue
+                #     continue WEIRD BUT SOME REASON THIS ACTUALLY INCREASES RUNTIME
 
                 summation = nums[i] + nums[j] + nums[k]
                 if summation == 0:
