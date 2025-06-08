@@ -1,30 +1,117 @@
-from collections import defaultdict
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        counts = defaultdict(int)
-        for num in nums:
-            counts[num] += 1
-        
-        
-        tuples = set()
-        for num in counts:
-            counts[num] -= 1
-            for othernum in counts:
-                if counts[othernum] > 0:
-                    counts[othernum] -= 1
-                    if othernum >= num:
-                        need = -1 * (num + othernum)
-                        if need in counts and counts[need] > 0:
-                            tuples.add(tuple(sorted([num, othernum, need])))
-                    else:
-                        pass
-                    counts[othernum] += 1
-            counts[num] += 1
-            
-        return [list(tup) for tup in tuples]
-        
-"""
-[-1,0,1,2,-1,-4]
+        solutions = set()
+        nums = sorted(nums)
+        #print("nums = {}".format(nums))
+        for i in range(len(nums) - 2):
+            # if i > 0 and nums[i] == nums[i-1]:
+            #     continue
+            j, k = i + 1, len(nums) - 1
+            while j < k:
+                #print("i = {}, j = {}, k =  {}".format(i, j, k))
+                #print("combo = {}, {}, {}".format(nums[i], nums[j], nums[k]))
+                # if j - i > 2 and j > 1 and nums[j] == nums[j-1] == nums[j-2]:
+                #     j += 1
+                #     continue
+                # if k < len(nums) - 2 and nums[k] == nums[k+1] == nums[k+2]:
+                #     k -= 1
+                #     continue
+                summation = nums[i] + nums[j] + nums[k]
+                if summation == 0:
+                    #result.append([nums[i], nums[j], nums[k]])
+                    solutions.add((nums[i], nums[j], nums[k]))
+                    j += 1
+                elif summation < 0:
+                    j += 1
+                else:
+                    k -= 1
+        return [list(solution) for solution in solutions]
 
+"""
+DEBUG
+[-1,0,1,2,-1,-4]
+i = 0
+j = 1
+k = 2
+sorted = [-4 -1 -1 0 1 2]
+
+
+========
+[0 0 0]
+for i in [0]:
+
+i = 0
+j = 1
+k = 2
+
+1 < 2:
+summation = 0
+
+
+NOTES
+Ok so, 
+Since i just did the Two Sum II where input array is sorted,
+i can think of a O(n^2) answer
+
+and this is better than an O(n^3) answer which is brute force every combo to see if it matches
+
+so basically, start by sorting the array, which takes O(n log n) time
+
+Then do a O(n) traversal of the array, and basically within each iteration of that loop,
+bounded by wherever that first index i is,
+we do a two pointer search of counterparts, 
+so the idea is that, bounded by the lower on i,
+we have a j and k who , the j starts left and the k starts right
+and whenever the element at j + element at k is too high, decrement the k
+and whenever the elemenet at j + element at k is too low, increment the j
+and whenever there's a target hit, save the triplet index
+
+the way you ensure there's no duplicate triplets is because that i is like the
+floor that is raising each time, so there's no way for anyone to accidentally go 
+back and include that i 
+(right like in proof land the definition of unique is that there's at least one
+elemente in there that for sure isn't in any of the others)
+
+and of course, this goes without saying, but holding a given i fixed the j and k
+are unique because we're squeezing
+
+ALSO, we need a mechanism to avoid duplicate in i-land and duplicates in j and k land
+the answer to i-land is that if the prev element is the same, we skip it
+the answer to j-and-k land is that if the prev for either is the same, we skip it
+(check each and move the offender). can use a simple boolean flag or a recompute
+that the previous elements sum to the target, but honestly that's overkill.
+just check that your prev of YOU is a duplicate, since that means we already have our answer
+for that, regardless of whether that was a solution or not, and move on.
+
+
+
+HONESTLY , maybe the easiest way to avoid duplicates is just have a set
+because this ^^^^^ stuff to avoid duplicates didn't even work:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        result = []
+        nums = sorted(nums)
+        #print("nums = {}".format(nums))
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
+            j, k = i + 1, len(nums) - 1
+            while j < k:
+                #print("i = {}, j = {}, k =  {}".format(i, j, k))
+                #print("combo = {}, {}, {}".format(nums[i], nums[j], nums[k]))
+                if j - i > 2 and j > 1 and nums[j] == nums[j-1] == nums[j-2]:
+                    j += 1
+                    continue
+                if k < len(nums) - 2 and nums[k] == nums[k+1] == nums[k+2]:
+                    k -= 1
+                    continue
+                summation = nums[i] + nums[j] + nums[k]
+                if summation == 0:
+                    result.append([nums[i], nums[j], nums[k]])
+                    j += 1
+                elif summation < 0:
+                    j += 1
+                else:
+                    k -= 1
+        return result
 
 """
