@@ -11,6 +11,28 @@ class Solution:
                 low += 1
 """
 ANKI
+- O(n^2) solution would be to do a nested for-loop and for each element, re-iterate over
+everyone else to find the counterpart 
+
+- O(n log n) solution would be to iterate over the array, and for each, do a binary search
+for the counterpart 
+
+- PARTY TRICK: O(n) solution is to put a pointer at the bottom and a pointer at the top.
+What you do is assume one of the two elements is part of the solution.
+If the left one is part of the solution, then either the right is also part of the solution
+or the sum is too high. In which case keep decrementing the index of the right until you find it.
+However, if the sum is too low, the left can't possibly be part of the solution, because there's
+no counterpart that's possibly big enough to meet its needs.
+
+Similarly, if the right one is part of the solution, then either the left one is also part 
+of the solution, or the sum is too low. In which case keep incrementing the index of the left
+until you find it. However, if the sum is too high, the right can't possibly be part of the solution,
+because there's no counterpart that's possibly low enough to meet its needs.
+
+SO BASICALLY: Start the left at the start, and the right at the end. 
+If sum > target: right -- (this left index *could* still be a solution if only the right were smaller)
+If sum < target: left ++ (this right index *could* still be a solution if only the left were bigger)
+If sum == target: return two indices
 
 NOTES
 already sorted in non-decreasing order
