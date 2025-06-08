@@ -38,11 +38,18 @@ class Solution:
         return [list(solution) for solution in solutions]
 
 """
-ANKI
+ANKI 
 - Okay so apparently the only way to solve this is to remember Two Sum and Two Sum II solutions
-and build off that
+and build off that (like the interviewer will upgrade either to 3sum)
 
-- A
+- If using Two Sum II, or just remembering it, you can go ahead and sort this input. Then,
+iterating over i and holding it constant, do the increment the left if sum is too small (less than zero)
+and decremenet the right if sum is too big (greater than zero). If the previous i element is the same,
+you can skip it. But the left and right i haven't figured out how to skip, so just store everything
+as tuples for now in a hashset and convert it at the end to get unique values. 
+[[TODO: figure out how to not rely on the hashset of tuples]]
+
+- [[TODO: NEED TO DO THE Two Sum problem first]]
 
 DEBUG
 [-1,0,1,2,-1,-4]
