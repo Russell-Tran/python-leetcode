@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Russell-Tran/python-leetcode/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Russell-Tran/python-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/Russell-Tran/python-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Russell-Tran/python-leetcode/tree/master/0049-group-anagrams) |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Russell-Tran/python-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/Russell-Tran/python-leetcode/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/Russell-Tran/python-leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Russell-Tran/python-leetcode/tree/master/0020-valid-parentheses) |
@@ -248,4 +250,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Russell-Tran/python-leetcode/tree/master/0238-product-of-array-except-self) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Russell-Tran/python-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
