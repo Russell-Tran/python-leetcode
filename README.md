@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/Russell-Tran/python-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Russell-Tran/python-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0567-permutation-in-string](https://github.com/Russell-Tran/python-leetcode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Math
 |  |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/Russell-Tran/python-leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/Russell-Tran/python-leetcode/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/Russell-Tran/python-leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0567-permutation-in-string](https://github.com/Russell-Tran/python-leetcode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Sorting
 |  |
@@ -103,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/Russell-Tran/python-leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Russell-Tran/python-leetcode/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Russell-Tran/python-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0567-permutation-in-string](https://github.com/Russell-Tran/python-leetcode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Russell-Tran/python-leetcode/tree/master/0768-partition-labels) |
 ## Depth-First Search
 |  |
@@ -254,4 +257,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Russell-Tran/python-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0567-permutation-in-string](https://github.com/Russell-Tran/python-leetcode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
