@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/Russell-Tran/python-leetcode/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/Russell-Tran/python-leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Russell-Tran/python-leetcode/tree/master/0792-binary-search) |
+| [1929-concatenation-of-array](https://github.com/Russell-Tran/python-leetcode/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -273,4 +274,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/Russell-Tran/python-leetcode/tree/master/0739-daily-temperatures) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/Russell-Tran/python-leetcode/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
